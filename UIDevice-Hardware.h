@@ -34,4 +34,9 @@ typedef NS_ENUM(NSUInteger, UIDeviceFamily) {
  */
 - (UIDeviceFamily)deviceFamily;
 
+/**
+ Returns the PPI of the device's screen
+ */
+- (CGFloat) ppi;
+
 @end
